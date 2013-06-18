@@ -1,0 +1,17 @@
+{
+    "server":"appname.herokuapp.com",
+    "httpsPort":5000,
+    "httpPort":3000,
+    "allowHTTP":true,
+    "api":"/api/v1",
+    "dataFile":"nation.json",
+    "ssl":{
+        "key":"./certs/test/server.key",
+        "cert":"./certs/test/server.crt"
+    },
+    "db":"mydb",
+    "admin": {
+        "name":"admin",
+        "password":"adm1n"
+    }
+}
