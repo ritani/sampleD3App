@@ -2,6 +2,10 @@ This is a sample of a D3 Animated Motion Chart on a backbone client application 
 
 Please note that the data is fake.
 
+## Demo
+
+http://d3motion.herokuapp.com/
+
 ## The Client
 
 The client is a Backbone app with 2 views, the main app view and the D3 Animation view. There is one collection and one model to support data from the server. When the client loads, it will do a fetch(REST) of the data from the server. From there, it starts the router and upon it's initialization, the main view is created. Then the first route(and only - D3 Animation) is created and rendered in the main view. View events are used for controlling action from the user, such as clicking the play button or a circle.
