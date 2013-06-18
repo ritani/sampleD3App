@@ -6,5 +6,6 @@ log/*.log
 tmp
 config.json
 client/dev
+client/app/scripts/vendor
 client/prod
 .nodemonignore
