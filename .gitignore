@@ -5,7 +5,5 @@ node_modules
 log/*.log
 tmp
 config.json
-client/dev
-client/app/scripts/vendor
-client/prod
+client/scripts/vendor
 .nodemonignore
