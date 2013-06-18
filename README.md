@@ -1,4 +1,4 @@
-This is a sample of a D3 animation on a backbone client application with a node server. 
+This is a sample of a D3 Animated Motion Chart on a backbone client application with a expressjs/node server. 
 
 Please note that the data is fake.
 
@@ -31,7 +31,7 @@ Bower is used to organize and install 3rd party vendor code.
 
 ## The Server
 
-The server serves static files and a has small REST API for retrieving data. The data is read from a JSON file. PushState is setup for the client, though this client only has one route.
+The server serves static files and a has small REST API for retrieving data. The data is read from a JSON file. PushState is setup for the client, though this client only has one route. Additionally, the server is setup for secure and unsecure connections, but could easily be configured to redirect unsecure connections to the secure port.
 
 ### Future Improvements
 
@@ -54,12 +54,17 @@ The server serves static files and a has small REST API for retrieving data. The
 
 * sudo npm install -g bower 
 
+* npm install
+
 * cd client
 
 * bower install
 
+* cd ..
+
 * npm start
 
+* open http://localhost:3000 or https://localhost:5000 in your browser
 
 
 
