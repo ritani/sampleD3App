@@ -1,0 +1,32 @@
+<div class="control-group">
+    Name: {{name}}
+</div>
+<div class="control-group">
+    Region: {{region}}
+</div>
+<table>
+<tr>
+    <th>Year</th>
+    {{#each population}}
+        <th>{{this.[0]}}</th>
+    {{/each}}
+</tr>
+<tr>
+    <th>Population</th>
+    {{#each population}}
+        <td>{{this.[1]}}</td>
+    {{/each}}
+</tr>
+<tr>
+    <th>Chidren Per Woman</th>
+    {{#each chidrenPerWoman}}
+        <td>{{this.[1]}}</td>
+    {{/each}}
+</tr>
+<tr>
+    <th>Child Survival Rate</th>
+    {{#each childSurvivalRate}}
+        <td>{{this.[1]}}</td> 
+    {{/each}}
+</tr>
+</table>

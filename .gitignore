@@ -1,0 +1,10 @@
+# Generated Files #
+node_modules
+.DS_Store
+*.log
+log/*.log
+tmp
+config.json
+client/dev
+client/prod
+.nodemonignore

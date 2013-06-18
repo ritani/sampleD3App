@@ -1,0 +1,69 @@
+body {
+    text-align: center
+}
+
+#chart {
+  margin-left: -40px;
+  height: 506px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  font: 500 36px "Helvetica Neue";
+  background-color: #FFF;
+  color: #777;
+  vertical-align: middle;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+
+.controls {
+    padding:5px;
+}
+
+.playStop{
+    min-width: 90px;
+}
+
+.colorKey {
+    padding: 3px;
+    margin: 3px;
+}
+
+.info label {
+    width:200px;
+}
+
+table {
+    width:80%;
+    max-width: 400px;
+    margin: auto auto;
+}
+
+table, tr, td {
+    text-align: center;
+    padding:5px;
+    border:1px solid black;
+    border-collapse:collapse;
+}
